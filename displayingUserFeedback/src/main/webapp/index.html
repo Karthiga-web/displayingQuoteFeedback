@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Give Feedback</title>
+</head>
+<body>
+	<div align="center">
+		<form action="feedback/submit" method="post">
+			<table>
+				<tr>
+					<td>Id</td>
+					<td><input type="text" name="id" required /></td>
+				</tr>
+				<tr>
+					<td>Author</td>
+					<td><input type="text" name="author" maxlength="255" required /></td>
+				</tr>
+				<tr>
+					<td>Permalink</td>
+					<td><input type="text" name="permalink" maxlength="255"
+						required /></td>
+				</tr>
+				<tr>
+					<td>Quote</td>
+					<td><input type="text" name="quote" maxlength="255" required /></td>
+				</tr>
+			</table>
+			<br> <input type="submit" value="UPDATE" />
+		</form>
+	</div>
+</body>
+</html>
